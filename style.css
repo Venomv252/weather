@@ -188,11 +188,9 @@ nav {
     color: white;
     padding: 0 100px;
     line-height: 80px;
+    text-align: center;
 }
-nav ul {
-    float: right;
-    margin-right: 40px;
-}
+
 nav li {
     display: inline-block; /* important */
     margin: 0 8px;
@@ -224,9 +222,7 @@ nav #icon {
         font-size: 32px;
         padding-left: 60px;
     }
-    nav ul {
-        margin-right: 20px;
-    }
+ 
     nav a {
         font-size: 17px;
     }
@@ -265,9 +261,6 @@ nav #icon {
     .logo {
         font-size: 28px;
         padding-left: 30px;
-    }
-    nav ul {
-        margin-right: 10px;
     }
     nav a {
         font-size: 15px;
