@@ -11,18 +11,11 @@
 <body>
     <nav>
         <label class="logo">
-            <a class="nav" href="code.html">FieldMate</label></a>
             <ul>
-                <li><a class="active nav" href="../weaher/weather1.html">Weather Forecast</a></li>
+                <li><a class="active nav" href="./index.html">Weather Forecast</a></li>
             </ul>
-        <label id="icon">☰</label>
+       
     </nav>
-    <script>
-        function toggleMenu() {
-            const navLinks = document.getElementById('nav-links');
-            navLinks.classList.toggle('active');
-        }
-    </script>
     <div class="container">
         <div class="weather-input">
             <h3>Enter a City Name</h3>
@@ -104,14 +97,4 @@
         </footer>
     </body>
 </body>
-
-<script>
-    $(document).ready(function () {
-        $('#icon').click(function () {
-            $('ul').toggleClass('show');
-        });
-    });
-
-</script>
-
 </html>
