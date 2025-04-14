@@ -310,6 +310,10 @@ footer {
     color: white;
     text-decoration: none;
 }
+.footer-column ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
 .footer-column p {
     line-height: 1.6;
 }
