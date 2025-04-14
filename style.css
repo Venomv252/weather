@@ -306,14 +306,8 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer-column ul li a {
-    color: white;
-    text-decoration: none;
-}
-.footer-column ul li a:visited {
-    color: white;
-    text-decoration: none;
-}
+
+
 .footer-column p {
     line-height: 1.6;
 }
@@ -328,13 +322,22 @@ font-style: italic;
 .soil{
     background-image: url("");
 }
-a.linke:visited,a.linke:hover{
+.linke{
+  text-decoration: none;
+  color: white;
+  
+}
+.linke:visited{
     text-decoration: none;
     color: white;
 
 }
-a.linke:hover{
+.linke:hover{
     color: black;
+}
+.lin{
+  color:white;
+  text-decoration: none;
 }
 .lin:hover{
     color:black;
